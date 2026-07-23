@@ -1,9 +1,3 @@
-# ============================================================
-# ⚠️ SECTION "backend" — À REMPLACER
-# Une fois ton compte DecapBridge créé et connecté à ce dépôt,
-# DecapBridge te génère les bonnes lignes à coller ici.
-# ============================================================
-backend:
  # Use DecapBridge PKCE auth (required)
 backend:
   name: git-gateway
