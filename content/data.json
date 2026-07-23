@@ -1,0 +1,32 @@
+{
+  "name": "Doriane TF1",
+  "title": "Consultante Digitale — Sites Web & Croissance en ligne",
+  "tagline": "De l'idée au site en ligne : je conçois des présences digitales professionnelles, propulsées par l'intelligence artificielle, pour les entrepreneurs qui n'ont pas de temps à perdre.",
+  "avatar": "",
+  "phone": "+237 6XX XXX XXX",
+  "email": "doriane.tf1@email.com",
+  "whatsapp_number": "237600000000",
+  "location": "Cameroun",
+  "stats": [
+    { "value": "7+", "label": "sites livrés" },
+    { "value": "2", "label": "langues maîtrisées" },
+    { "value": "100%", "label": "propulsé par l'IA" },
+    { "value": "< 7j", "label": "délai moyen de livraison" }
+  ],
+  "skills": [
+    { "icon": "🌐", "title": "Création de sites web", "desc": "Sites professionnels sur mesure, propulsés par l'IA, prêts en quelques jours." },
+    { "icon": "🛍️", "title": "Sourcing & e-commerce", "desc": "Accompagnement des entrepreneurs débutants, de l'idée à la vente." },
+    { "icon": "🤖", "title": "Formation aux outils IA", "desc": "Prise en main d'outils comme Claude pour créer et automatiser." },
+    { "icon": "🌍", "title": "Bilingue FR/EN", "desc": "À l'aise pour accompagner une clientèle francophone et anglophone." }
+  ],
+  "projects": [
+    { "icon": "🛍️", "tag": "E-commerce", "title": "Sourcing Pro", "desc": "Site complet + identité visuelle pour une activité de sourcing et d'accompagnement entrepreneurial." },
+    { "icon": "🍽️", "tag": "Restaurant", "title": "Le Bistro", "desc": "Site vitrine une page, ambiance chaleureuse, menu et réservation en ligne." },
+    { "icon": "🔧", "tag": "Services", "title": "Services Express", "desc": "Site 2 pages avec système de demande de devis intégré." },
+    { "icon": "👗", "tag": "Boutique", "title": "Boutique Éclat", "desc": "Boutique mode 3 pages avec catalogue complet et newsletter." },
+    { "icon": "💼", "tag": "Conseil", "title": "Meridian Conseil", "desc": "Site premium pour cabinet de conseil, positionnement haut de gamme." },
+    { "icon": "🧴", "tag": "Cosmétiques", "title": "Belle Nature", "desc": "Identité douce et naturelle pour une marque de cosmétiques artisanaux." },
+    { "icon": "🎓", "tag": "Formation", "title": "Académie Pro", "desc": "Plateforme de cours en ligne avec chatbot FAQ et inscription automatisée." },
+    { "icon": "🤖", "tag": "Automatisation", "title": "Chatbots FAQ sur mesure", "desc": "Assistants automatiques intégrant politiques de remboursement et réponses instantanées." }
+  ]
+}
