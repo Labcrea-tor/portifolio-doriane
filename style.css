@@ -1,0 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@600;700;800&family=Inter:wght@400;500;600&display=swap');
+:root{--ink:#1A1D24;--ink-2:#12141A;--coral:#FF5A36;--coral-dk:#E2481F;--bg:#FAFAF8;--line:#E8E6E1;--txt:#22242B;--txt-soft:#666A75;}
+*{box-sizing:border-box;margin:0;padding:0;}
+body{font-family:'Inter',sans-serif;color:var(--txt);background:#fff;}
+h1,h2,h3{font-family:'Plus Jakarta Sans',sans-serif;font-weight:700;color:var(--ink);line-height:1.18;}
+a{text-decoration:none;color:inherit;}
+.wrap{max-width:1080px;margin:0 auto;padding:0 24px;}
+.nav{position:sticky;top:0;background:#fff;border-bottom:1px solid var(--line);z-index:10;}
