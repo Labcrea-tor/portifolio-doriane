@@ -1,0 +1,50 @@
+# ============================================================
+# ⚠️ SECTION "backend" — À REMPLACER
+# Une fois ton compte DecapBridge créé et connecté à ce dépôt,
+# DecapBridge te génère les bonnes lignes à coller ici.
+# ============================================================
+backend:
+  name: github
+  repo: Labcrea-tor/portifolio-doriane
+  branch: main
+
+media_folder: "assets/uploads"
+public_folder: "assets/uploads"
+
+collections:
+  - name: "profil"
+    label: "Mon profil"
+    files:
+      - file: "content/data.json"
+        label: "Informations du site"
+        name: "data"
+        fields:
+          - { label: "Nom complet", name: "name", widget: "string" }
+          - { label: "Titre professionnel", name: "title", widget: "string" }
+          - { label: "Accroche", name: "tagline", widget: "text" }
+          - { label: "Photo de profil", name: "avatar", widget: "image", required: false }
+          - { label: "Téléphone affiché", name: "phone", widget: "string" }
+          - { label: "Numéro WhatsApp (indicatif + chiffres, ex: 237691074758)", name: "whatsapp_number", widget: "string" }
+          - { label: "Email", name: "email", widget: "string" }
+          - { label: "Localisation", name: "location", widget: "string" }
+          - label: "Chiffres clés"
+            name: "stats"
+            widget: "list"
+            fields:
+              - { label: "Valeur", name: "value", widget: "string" }
+              - { label: "Légende", name: "label", widget: "string" }
+          - label: "Compétences"
+            name: "skills"
+            widget: "list"
+            fields:
+              - { label: "Icône (emoji)", name: "icon", widget: "string" }
+              - { label: "Titre", name: "title", widget: "string" }
+              - { label: "Description", name: "desc", widget: "text" }
+          - label: "Projets"
+            name: "projects"
+            widget: "list"
+            fields:
+              - { label: "Icône (emoji)", name: "icon", widget: "string" }
+              - { label: "Catégorie", name: "tag", widget: "string" }
+              - { label: "Titre du projet", name: "title", widget: "string" }
+              - { label: "Description", name: "desc", widget: "text" }
